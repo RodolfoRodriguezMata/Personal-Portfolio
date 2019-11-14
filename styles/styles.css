@@ -28,10 +28,10 @@
 html {
   background-color: #f6f9fc;
   color: #525f7f;
+  box-sizing: border-box;
 }
 
 main {
-  display: inline-block;
   padding: 30px 10%;
   border: 10px solid yellow;
 }
@@ -92,7 +92,7 @@ nav p a {
 
 #terminal {
   border: 10px solid black;
-  padding: 20px 0;
+  padding: 20px 5%;
 
 }
 
@@ -117,7 +117,52 @@ nav p a {
 
 .project-card {
   display:flex;
-  
+  border: 5px solid black;
+  height: 500px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.project-img {
+  height: calc(100% - 15px);
+  position: absolute;
+  z-index: 0;
+}
+
+.project-background {
+  height: calc(100% - 15px);
+  position:absolute;
+  padding-left: 10%;
+  z-index: 1;
+}
+
+.project-info {
+  height: calc(100% - 15px);
+  width: 700px;
+  position: absolute;
+  z-index: 2;
+  padding-left: 25%;
+  padding-top: 25%;
+}
+
+.project-title {
+  font-family: "Camphor";
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 38px;
+  color:#525f7f;
+  padding: 0 0 15px 5px;
+}
+
+.project-skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 20%
+}
+
+.skill {
+  padding: 5px;
+  border: 2px solid #92eac0;
 }
 
 footer {
