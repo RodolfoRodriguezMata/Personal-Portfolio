@@ -34,9 +34,7 @@ Project: HTML Forms
     <a href="https://github.com/RodolfoRodriguezMata/nytimes-clone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/RodolfoRodriguezMata/Personal-Portfolio/feature-branch/index.html
-
-">View Demo</a>
+    <a href="https://raw.githack.com/RodolfoRodriguezMata/Personal-Portfolio/feature-branch/index.html">View Demo</a>
     ·
     <a href="https://github.com/RodolfoRodriguezMata/nytimes-clone/issues">Report Bug</a>
     ·

@@ -32,16 +32,65 @@ html {
 
 main {
   display: inline-block;
-  padding: 30px 15%;
+  padding: 30px 10%;
+  border: 10px solid yellow;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20vh;
+  border: 10px solid black;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
-  align-content: center;
-  height: 10vh;
-
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid green;
+  height: 100%;
+  width: 33.33333%;
 }
+
+nav p {
+  display: inline-block;
+  height: 3vh;
+  width: 100px;
+  padding: 15px;
+  border: 1px solid red;
+  
+}
+
+nav p a {
+  text-decoration: none;
+  font-family: "Monaco";
+  font-size: 18px;
+  color: #5e617e;
+}
+
+#title {
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#title h1 {
+  padding: 20px 0;
+  font-family: "Camphor";
+  font-size: 28px;
+  border: 5px solid green;
+}
+
+#title p {
+  padding: 100px 0;
+  font-family: "Camphor";
+  font-size: 20px;
+  border: 5px solid green;
+}
+
+
 
 .project-card {
   display:flex;
