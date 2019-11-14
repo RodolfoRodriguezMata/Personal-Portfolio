@@ -90,11 +90,34 @@ nav p a {
   border: 5px solid green;
 }
 
+#terminal {
+  border: 10px solid black;
+  padding: 20px 0;
 
+}
+
+.key {
+  padding: 10px 0;
+  border: 5px solid green;
+}
+
+.value {
+  padding: 10px 0;
+  border: 5px solid blue;
+}
+
+.subtitle {
+  font-family: "Monaco";
+  font-size: 20px;
+  color: #5e617e;
+  text-align: center;
+  padding: 50px;
+  border: 5px solid black;
+}
 
 .project-card {
   display:flex;
-  flex-direction: column;
+  
 }
 
 footer {
