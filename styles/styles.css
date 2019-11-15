@@ -113,10 +113,11 @@ nav p a {
   text-align: center;
   padding: 50px;
   border: 5px solid black;
+  margin-top: 50px;
 }
 
 .project-card {
-  display:flex;
+  display: grid;
   border: 5px solid black;
   height: 500px;
   margin-top: 50px;
@@ -127,6 +128,7 @@ nav p a {
   height: 95%;
   position: absolute;
   z-index: 0;
+  flex: 1;
 }
 
 .project-background {
@@ -134,6 +136,7 @@ nav p a {
   position:absolute;
   padding-left: 10%;
   z-index: 1;
+  flex: 1;
 }
 
 .project-info {
@@ -165,7 +168,26 @@ nav p a {
   border: 2px solid #92eac0;
 }
 
+#contact {
+  height: 10vh;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid black;
+  margin-top: 50px;
+}
+
+.contact-link{
+  text-align: center;
+  width: 20%;
+  padding: 5px;
+  border: 5px solid green;
+}
+
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
