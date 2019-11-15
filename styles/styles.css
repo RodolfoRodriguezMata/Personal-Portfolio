@@ -123,11 +123,12 @@ nav p a {
   grid-template-areas:"img1 background1 info1-1 info1-2 info1-3"
                       "img2 background2 info2-1 info2-2 info2-3"
                       "img3 background3 info3-1 info3-2 info3-3";
-  border: 5px solid black;
   height: 400px;
   width: 100%;
   margin-top: 50px;
   align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.05),0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.1);
 }
 
 .project-img {
@@ -135,6 +136,8 @@ nav p a {
   grid-column: 1 / 4;
   grid-row: 1 / 4;
   z-index: 1;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .project-background {
@@ -156,6 +159,8 @@ nav p a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .project-title {
