@@ -124,7 +124,7 @@ nav p a {
                       "img2 background2 info2-1 info2-2 info2-3"
                       "img3 background3 info3-1 info3-2 info3-3";
   border: 5px solid black;
-  height: 500px;
+  height: 400px;
   width: 100%;
   margin-top: 50px;
   align-items: center;
@@ -149,9 +149,13 @@ nav p a {
   grid-column: 3 / 6;
   grid-row: 1 / 4;
   z-index: 3;
-  background-color: #f6f9fc;
+  background-color: #ffffff;
   align-self: center;
   justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-title {
@@ -163,15 +167,58 @@ nav p a {
   padding: 0 0 15px 5px;
 }
 
+.project-description {
+  text-align: center;
+}
+
 .project-skills {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   padding: 10% 20%;
 }
 
 .skill {
   padding: 5px;
   border: 2px solid #92eac0;
+  margin: 0 15px;
+}
+
+.btn-container {
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.live-btn {
+  background-color: #747fe0;
+  color: #ffffff;
+  border: none;
+  border-radius: 10.25px;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10%;
+}
+
+.live-btn p{
+  margin: 5px;
+}
+
+.source-btn {
+  background-color: #ffffff;
+  color: #747fe0;
+  border: 1px solid #747fe0;
+  border-radius: 10.25px;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10%;
 }
 
 #contact {
