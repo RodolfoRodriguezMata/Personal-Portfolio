@@ -132,22 +132,22 @@ nav p a {
 
 .project-img {
   height: 100%;
-  grid-column: img1 / info1-3;
-  grid-row: img-1 / img-3;
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
   z-index: 1;
 }
 
 .project-background {
   height: 100%;
-  grid-column: background1 / span 1;
-  grid-row: background1 / background3;
-  z-index: 99;
+  grid-column: 2 / 5;
+  grid-row: 1 / 4;
+  z-index: 2;
 }
 
 .project-info {
   height: 100%;
-  grid-column: info1-1 / info1-3;
-  grid-row: info1-1 / info3-1;
+  grid-column: 3 / 6;
+  grid-row: 1 / 4;
   z-index: 3;
   background-color: #f6f9fc;
   align-self: center;
