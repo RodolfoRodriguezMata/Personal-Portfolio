@@ -118,34 +118,40 @@ nav p a {
 
 .project-card {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:"img1 background1 info1-1 info1-2 info1-3"
+                      "img2 background2 info2-1 info2-2 info2-3"
+                      "img3 background3 info3-1 info3-2 info3-3";
   border: 5px solid black;
   height: 500px;
+  width: 100%;
   margin-top: 50px;
   align-items: center;
 }
 
 .project-img {
-  height: 95%;
-  position: absolute;
-  z-index: 0;
-  flex: 1;
+  height: 100%;
+  grid-column: img1 / info1-3;
+  grid-row: img-1 / img-3;
+  z-index: 1;
 }
 
 .project-background {
-  height: 95%;
-  position:absolute;
-  padding-left: 10%;
-  z-index: 1;
-  flex: 1;
+  height: 100%;
+  grid-column: background1 / span 1;
+  grid-row: background1 / background3;
+  z-index: 99;
 }
 
 .project-info {
-  height: 95%;
-  width: 700px;
-  position: absolute;
-  z-index: 2;
-  padding-left: 25%;
-  padding-top: 25%;
+  height: 100%;
+  grid-column: info1-1 / info1-3;
+  grid-row: info1-1 / info3-1;
+  z-index: 3;
+  background-color: #f6f9fc;
+  align-self: center;
+  justify-self: center;
 }
 
 .project-title {
