@@ -33,7 +33,6 @@ html {
 
 main {
   padding: 30px 10%;
-  border: 10px solid yellow;
 }
 
 header {
@@ -41,14 +40,12 @@ header {
   justify-content: flex-end;
   align-items: center;
   height: 20vh;
-  border: 10px solid black;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid green;
   height: 100%;
   width: 33.33333%;
 }
@@ -57,9 +54,14 @@ nav p {
   display: inline-block;
   height: 3vh;
   width: 100px;
-  padding: 15px;
-  border: 1px solid red;
-  
+  padding: 10px 15px;
+}
+
+nav p :hover {
+  color: #747fe0;
+  border: 1px solid #747fe0;
+  border-radius: 10.25px;
+  padding: 10px 15px;
 }
 
 nav p a {
@@ -67,10 +69,10 @@ nav p a {
   font-family: "Monaco";
   font-size: 18px;
   color: #5e617e;
+  padding: 10px 15px;
 }
 
 #title {
-  border: 5px solid black;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -80,14 +82,17 @@ nav p a {
   padding: 20px 0;
   font-family: "Camphor";
   font-size: 28px;
-  border: 5px solid green;
 }
 
 #title p {
   padding: 100px 0;
   font-family: "Camphor";
   font-size: 20px;
-  border: 5px solid green;
+}
+
+#microverse {
+  color: rgb(111, 35, 255);
+  text-decoration: none;
 }
 
 #terminal {
@@ -127,12 +132,13 @@ nav p a {
   width: 100%;
   margin-top: 50px;
   align-items: center;
-  border-radius: 15px;
+  border-radius:15px;
   box-shadow: 0 50px 100px rgba(50,50,93,.05),0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.1);
 }
 
 .project-img {
   height: 100%;
+  width: 100%;
   grid-column: 1 / 4;
   grid-row: 1 / 4;
   z-index: 1;
