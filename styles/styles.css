@@ -25,9 +25,19 @@
   src: url("/static/monaco-webfont.179f96cc.woff") format("woff");
 }
 
+/* COLORS */
+
+.green {
+  color: #21fa11;
+}
+
+.blue {
+  color: #274df5;
+}
+
 html {
-  background-color: #f6f9fc;
-  color: #525f7f;
+  background-color: #2d2f3b;
+  color: #b0b0b5;
   box-sizing: border-box;
 }
 
@@ -58,8 +68,8 @@ nav p {
 }
 
 nav p :hover {
-  color: #747fe0;
-  border: 1px solid #747fe0;
+  color: #b0b0b5;
+  border: 1px solid #b0b0b5;
   border-radius: 10.25px;
   padding: 10px 15px;
 }
@@ -90,6 +100,11 @@ nav p a {
   font-size: 20px;
 }
 
+#here {
+  text-decoration: none;
+  color: #69696e;
+}
+
 #microverse {
   color: rgb(111, 35, 255);
   text-decoration: none;
@@ -113,11 +128,13 @@ nav p a {
 
 .subtitle {
   font-family: "Monaco";
-  font-size: 20px;
-  color: #5e617e;
+  font-size: 38px;
+  font-weight: 500;
+  color: #b0b0b5;
   text-align: center;
   padding: 50px;
-  border: 5px solid black;
+  border: 3px solid #69696e;
+  border-radius: 25px;
   margin-top: 50px;
 }
 
