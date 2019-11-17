@@ -111,20 +111,19 @@ nav p a {
 }
 
 #terminal {
-  border: 10px solid black;
+  border: 1px solid #f7eceb;
   padding: 20px 5%;
-
+  background-color: black;
 }
 
-.key {
-  padding: 10px 0;
-  border: 5px solid green;
+/*.key {
+  
 }
 
 .value {
   padding: 10px 0;
   border: 5px solid blue;
-}
+}*/
 
 .subtitle {
   font-family: "Monaco";
@@ -151,6 +150,7 @@ nav p a {
   align-items: center;
   border-radius:15px;
   box-shadow: 0 50px 100px rgba(50,50,93,.05),0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.1);
+  padding-right: 30px; 
 }
 
 .project-img {
@@ -184,6 +184,7 @@ nav p a {
   justify-content: center;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding-right: 30px;
 }
 
 .project-title {
