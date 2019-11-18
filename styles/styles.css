@@ -122,11 +122,12 @@ nav p a {
   background-color: #cecece;
   color: #33332e;
   width: 100%;
+  font-size: 14px;
 }
 
 .terminal-logo {
-  height: 8px;
-  width: 8px;
+  height: 9px;
+  width: 9px;
   color: #33332e;
   padding: 5px;
 }
@@ -137,15 +138,15 @@ nav p a {
 
 .option {
   border: none;
+  font-size: 14px;
 }
-/*.key {
-  
+.key {
+  padding: 2.5px;  
 }
 
 .value {
-  padding: 10px 0;
-  border: 5px solid blue;
-}*/
+  padding: 2.5px;
+}
 
 .subtitle {
   font-family: "Monaco";
@@ -220,18 +221,30 @@ nav p a {
 
 .project-description {
   text-align: center;
+  color: #747fe0;
 }
 
 .project-skills {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding: 10% 20%;
 }
 
 .skill {
   padding: 5px;
-  border: 2px solid #92eac0;
+  border: 2px solid #525f7f;
+  color: #525f7f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   margin: 0 15px;
+}
+
+.skill-logo {
+  height: 18px;
+  width: 18px;
+  margin-left: 5px;
 }
 
 .btn-container {
@@ -251,12 +264,9 @@ nav p a {
   width: 250px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0 10%;
-}
-
-.live-btn p{
-  margin: 5px;
+  padding-left: 5%;
 }
 
 .source-btn {
@@ -268,8 +278,14 @@ nav p a {
   width: 250px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0 10%;
+}
+
+.btn-logo {
+  height: 22px;
+  width: 22px;
+  margin: 0 5px; 
 }
 
 #contact {
@@ -283,10 +299,18 @@ nav p a {
 }
 
 .contact-link{
-  text-align: center;
-  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
   padding: 5px;
   border: 5px solid green;
+}
+
+.contact-logo {
+  height: 22px;
+  width: 22px;
+  padding: 10px;
 }
 
 footer {
