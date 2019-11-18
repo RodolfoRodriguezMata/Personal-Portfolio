@@ -111,8 +111,9 @@ nav p a {
 }
 
 #terminal {
-  border: 1px solid #f7eceb;
+  border: 2px solid #f7eceb;
   background-color: black;
+  border-radius: 5px;
 }
 
 #terminal-info {
@@ -139,6 +140,7 @@ nav p a {
 .option {
   border: none;
   font-size: 14px;
+  background-color: #cecece;
 }
 .key {
   padding: 2.5px;  
@@ -294,7 +296,6 @@ nav p a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 5px solid black;
   margin-top: 50px;
 }
 
@@ -304,7 +305,8 @@ nav p a {
   align-items: center;
   width: 30%;
   padding: 5px;
-  border: 5px solid green;
+  border: 3px solid #69696e;
+  border-radius: 5px;
 }
 
 .contact-logo {
