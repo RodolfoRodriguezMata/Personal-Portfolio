@@ -112,10 +112,32 @@ nav p a {
 
 #terminal {
   border: 1px solid #f7eceb;
-  padding: 20px 5%;
   background-color: black;
 }
 
+#terminal-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cecece;
+  color: #33332e;
+  width: 100%;
+}
+
+.terminal-logo {
+  height: 8px;
+  width: 8px;
+  color: #33332e;
+  padding: 5px;
+}
+
+#terminal-options {
+  background-color: #cecece;
+}
+
+.option {
+  border: none;
+}
 /*.key {
   
 }
